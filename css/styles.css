@@ -1,0 +1,281 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary-brand-color: #4D5AE5;
+    --dark-color: #2E2F42;
+    --link-color: #404BBF;
+    --text-color: #434455;
+    --white-text-color: #fff;
+}
+
+body {
+    font-family: Roboto;
+    color: var(--text-color);
+}
+
+.container {
+    width: 1158px;
+    margin: auto;
+}
+
+/* header */
+header {
+    background-color: #fff;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo */
+.header-logo {
+    color: var(--dark-color);
+    text-decoration: none;
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    margin-right: 76px;
+}
+
+.header-logo-Web {
+    color: var(--primary-brand-color);
+}
+
+
+
+.cont-nav-container {
+    display: flex;
+}
+
+
+
+/* nav */
+.navigation-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 261px;
+    padding-left: 0;
+}
+
+.navigation-list-item-link {
+    color: var(--dark-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+.navigation-list-item-link:focus,
+.navigation-list-item-link:hover {
+    color: var(--link-color)
+}
+
+/* header-contacts */
+
+.contacts-list {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    margin-left: 332px;
+}
+
+.contacts-list-element {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contacts-list li:not(:last-child) {
+    margin-right: 40px;
+}
+
+.contacts-list li:last-child {
+    margin-right: 0;
+}
+
+.contacts-list-element:hover,
+.contacts-list-element:focus {
+    color: var(--link-color);
+}
+
+/* main-index.html */
+
+/* hero-section */
+.hero-section {
+    background-color: var(--dark-color);
+    padding: 200px 0;
+}
+
+.hero-section-container {
+    text-align: center;
+
+}
+
+.hero-text {
+    color: var(--white-text-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    display: block;
+    margin: 0;
+    margin-bottom: 48px;
+}
+
+.hero-button {
+    background-color: var(--primary-brand-color);
+    color: var(--white-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--link-color);
+
+}
+
+/* about us section */
+
+.about-us-list {
+    list-style-type: none;
+}
+
+.about-us-list-feature {
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.about-us-list-feature-description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* what are we doing section */
+
+.doing-title {
+    color: var(--dark-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.doing-list {
+    list-style-type: none;
+
+}
+
+/* team-section */
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-section-title {
+    color: var(--dark-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+.team-section-list {
+    list-style-type: none;
+}
+
+.team-member-name {
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.team-member-work {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* portfolio.html */
+
+/* main portfolio */
+
+/* filters-section */
+
+.filters-list {
+    list-style-type: none;
+}
+
+.filters-list-button {
+    background-color: #E7E9FC;
+    color: var(--primary-brand-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.filters-list-button:hover,
+.filters-list-button:focus {
+    background-color: var(--link-color);
+    color: var(--white-text-color);
+}
+
+/* portfolio examples of work */
+
+.examples-of-work-list {
+    list-style-type: none;
+}
+
+.examples-of-work-name {
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.examples-of-work-type {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* footer */
+footer {
+    background-color: var(--dark-color);
+}
+
+.footer-logo {
+    color: #F4F4FD;
+    text-decoration: none;
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+.footer-logo-web {
+    color: var(--primary-brand-color);
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
