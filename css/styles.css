@@ -6,6 +6,7 @@
     --aktiv: #404bbf;
     --iris: #4d5ae5;
     --light: #f4f4fd;
+    --border-color: #e7e9fc;
 }
 
 *,
@@ -350,7 +351,32 @@ h3 {
     list-style: none;
 }
 
-.button-filtr {
+/* .portfolio-button-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+    list-style: none;
+} */
+
+.button-filter {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    align-items: center;
+    text-align: center;
+    color: var(--iris);
+    background: var(--light);
+    padding: 12px 24px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+
+/* .button-filtr {
     font-family: var(--main-font);
     font-style: normal;
     font-weight: 500;
@@ -365,10 +391,10 @@ h3 {
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     display: inline-block;
-}
+} */
 
-.button-filtr:hover,
-.button-filtr:focus {
+.button-filter:hover,
+.button-filter:focus {
     background: var(--aktiv);
     color: #ffffff;
     border: 1px solid transparent;
