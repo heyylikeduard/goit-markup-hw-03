@@ -344,8 +344,8 @@ h3 {
 
 .portfolio-button-list {
     display: flex;
-    gap: 24px;
     justify-content: center;
+    gap: 24px;
     margin-bottom: 72px;
     list-style: none;
 }
