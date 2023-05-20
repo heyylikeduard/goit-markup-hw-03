@@ -377,7 +377,8 @@ img {
 
 /* navigation */
 .navigation {
-    padding: 96px 0 120px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .navigation-list {
