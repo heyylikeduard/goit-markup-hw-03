@@ -343,7 +343,7 @@ h3 {
     padding-bottom: 120px;
 }
 
-.portfolio-button-list {
+.btn-list {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -374,7 +374,7 @@ h3 {
     border: 1px solid transparent;
 }
 
-.portfolio-list {
+.portf-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
