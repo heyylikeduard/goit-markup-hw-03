@@ -346,6 +346,7 @@ h3 {
 .btn-list {
     display: flex;
     justify-content: center;
+    justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
     list-style: none;
