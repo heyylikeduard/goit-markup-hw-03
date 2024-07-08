@@ -161,11 +161,12 @@ address {
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
     border: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
+    padding: 0;
     white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .features-section-list {
@@ -174,7 +175,7 @@ address {
 }
 
 .features-list-item {
-    width: calc(100% - 72px) / 4;
+    width: calc(100% - 3 * 24px) / 4;
 }
 
 .features-item-title {
@@ -241,6 +242,10 @@ address {
     text-align: center;
 }
 
+.portfolio-section {
+    padding: 120px 0 120px 0;
+}
+
 .portfolio-section-title {
     font-weight: 700;
     font-size: 36px;
@@ -249,10 +254,25 @@ address {
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.portfolio-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-list-item {
     background-color: #fff;
+    width: calc(100% - 2 * 24px) / 3;
+}
+
+.portfolio-item-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-item-title {
@@ -261,7 +281,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-
+    margin-bottom: 8px;
 }
 
 .portfolio-item-text {
@@ -274,6 +294,7 @@ address {
 
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -284,6 +305,8 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-span {
